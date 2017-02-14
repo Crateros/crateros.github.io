@@ -76,6 +76,7 @@ header {
   text-align: center;
   background-image: url("../img/simply_space.png");
   background-position: center;
+  background-size: cover;
   color: white;
 }
 header .container {
@@ -568,10 +569,10 @@ body {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
-  background-color: lightseagreen;
+  /*background-color: lightseagreen;*/
 }
 
-.footer-grow:hoover {
+.footer-grow:hover {
   -webkit-transition: transform 0.3s ease-in-out;
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
