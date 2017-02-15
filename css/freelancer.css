@@ -578,3 +578,9 @@ body {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
+
+@media only screen and (max-width: 600px) {
+
+   .ubuntu { font-size: 1em; }
+
+}
