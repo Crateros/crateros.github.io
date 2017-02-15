@@ -565,11 +565,11 @@ body {
     font-weight: bolder;
 }
 .list-group-item:hover {
-  -webkit-transition: transform 0.3s ease-in-out;
+  /*-webkit-transition: transform 0.3s ease-in-out;
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
-  /*background-color: lightseagreen;*/
+  background-color: lightseagreen;*/
 }
 
 .footer-grow:hover {
@@ -581,6 +581,11 @@ body {
 
 @media only screen and (max-width: 600px) {
 
-   .ubuntu { font-size: 1em; }
+   .ubuntu { font-size: 1.2em; }
 
+}
+
+.skills-list-item {
+  /*border-bottom: 1px solid #ddd;*/
+  list-style-type: none;
 }
