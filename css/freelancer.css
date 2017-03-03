@@ -600,10 +600,6 @@ body {
   text-align: center;
   font-size: 4em;
 }
-#calculon {
-  height: 90% !important;
-  width: 90% !important;
-}
 .bubble{
     background-color: #F2F2F2;
     border-radius: 5px;
